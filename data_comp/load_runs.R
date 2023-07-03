@@ -48,6 +48,4 @@ maxmin_all <- data.frame(rbind(read.csv('runs_251_500/maxmin_251_500.csv'),
                                tmp,
                                tmp2))
 
-
-
-
+rm(tmp, tmp2)
