@@ -62,3 +62,15 @@ maxmin_all <- data.frame(rbind(tmp0,
                                tmp2))
 
 rm(tmp0, tmp, tmp2)
+
+saveRDS(flow1_all, 'flow1_all.rds')
+saveRDS(flow2_all, 'flow2_all.rds')
+saveRDS(flow3_all, 'flow3_all.rds')
+saveRDS(flow4_all, 'flow4_all.rds')
+saveRDS(flow5_all, 'flow5_all.rds')
+saveRDS(flow6_all, 'flow6_all.rds')
+saveRDS(flow7_all, 'flow7_all.rds')
+saveRDS(maxmin_all, 'maxmin_all.rds')
+
+
+
