@@ -30,7 +30,8 @@ The **data_comp** folder contains
  * `design_em.csv` contain a Maximin Latin Hypercube design of size 1250 with variable 
  being in the range [-1, 1].
  * `design_sim.csv` design with inputs scaled to original scale.
- * Running `source('load_runs.R')` combines the 7 flow outputs, and maxmin pressure output, across the 1250 design points.
+ * `flow1_all.rds`, ..., `flow7_all.rds` are 512x1250 data frames containing the 7 flow outputs, where the 1250 columns correspond to the 1250 design points.
+ * `maxmin_all.rds` is a 1250x3 data frame containing the max and min pressure outputs across the 1250 design points.
  
  
 
